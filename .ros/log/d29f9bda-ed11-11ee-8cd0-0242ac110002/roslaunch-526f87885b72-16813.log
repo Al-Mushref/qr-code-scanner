@@ -1,0 +1,147 @@
+[roslaunch][INFO] 2024-03-28 14:45:30,050: Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2024-03-28 14:45:30,080: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2024-03-28 14:45:30,081: roslaunch starting with args ['/opt/ros/noetic/bin/roslaunch', 'visp_auto_tracker', 'tracklive_usb.launch']
+[roslaunch][INFO] 2024-03-28 14:45:30,081: roslaunch env is environ({'_': '/opt/ros/noetic/bin/roslaunch', 'OLDPWD': '/', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-a43f5092-790c-496f-b59d-cac9f8576a40.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DISTRO': 'noetic', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'PATH': '/opt/ros/noetic/bin:/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'BROWSER': '/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/helpers/browser.sh', 'LC_ALL': 'C.UTF-8', 'LD_LIBRARY_PATH': '/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu', 'ROS_MASTER_URI': 'http://localhost:11311', 'SHLVL': '2', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-cc749b17-ae84-40b5-ae0e-0daa25fc637f.sock"]', 'TERM': 'xterm-256color', 'PYTHONPATH': '/opt/ros/noetic/lib/python3/dist-packages', 'CMAKE_PREFIX_PATH': '/opt/ros/noetic', 'REMOTE_CONTAINERS': 'true', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'LANG': 'C.UTF-8', 'HOME': '/root', 'PWD': '/opt/ros/noetic/share/visp_auto_tracker', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'ROS_PACKAGE_PATH': '/opt/ros/noetic/share', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-cc749b17-ae84-40b5-ae0e-0daa25fc637f.sock', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-cc749b17-ae84-40b5-ae0e-0daa25fc637f.sock', 'HOSTNAME': '526f87885b72', 'ROS_PYTHON_VERSION': '3', 'PKG_CONFIG_PATH': '/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig', 'TERM_PROGRAM_VERSION': '1.87.2', 'COLORTERM': 'truecolor', 'ROS_VERSION': '1', 'SHELL': '/bin/bash', 'ROS_LOG_FILENAME': '/root/.ros/log/d29f9bda-ed11-11ee-8cd0-0242ac110002/roslaunch-526f87885b72-16813.log'})
+[roslaunch][INFO] 2024-03-28 14:45:30,082: starting in server mode
+[roslaunch.parent][INFO] 2024-03-28 14:45:30,082: starting roslaunch parent run
+[roslaunch][INFO] 2024-03-28 14:45:30,083: loading roscore config file /opt/ros/noetic/etc/ros/roscore.xml
+[roslaunch][INFO] 2024-03-28 14:45:31,035: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2024-03-28 14:45:31,036: loading config file /opt/ros/noetic/share/visp_auto_tracker/launch/tracklive_usb.launch
+[roslaunch][INFO] 2024-03-28 14:45:31,125: Added node of type [visp_auto_tracker/visp_auto_tracker] in namespace [/]
+[roslaunch][INFO] 2024-03-28 14:45:31,126: Added node of type [usb_cam/usb_cam_node] in namespace [/]
+[roslaunch][INFO] 2024-03-28 14:45:31,127: ... selected machine [] for node of type [visp_auto_tracker/visp_auto_tracker]
+[roslaunch][INFO] 2024-03-28 14:45:31,127: ... selected machine [] for node of type [usb_cam/usb_cam_node]
+[roslaunch.pmon][INFO] 2024-03-28 14:45:31,133: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2024-03-28 14:45:31,133: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2024-03-28 14:45:31,137: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2024-03-28 14:45:31,138: starting parent XML-RPC server
+[roslaunch.server][INFO] 2024-03-28 14:45:31,138: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2024-03-28 14:45:31,139: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2024-03-28 14:45:31,140: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2024-03-28 14:45:31,141: Started XML-RPC server [http://526f87885b72:42735/]
+[xmlrpc][INFO] 2024-03-28 14:45:31,142: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2024-03-28 14:45:31,161: started roslaunch server http://526f87885b72:42735/
+[roslaunch.parent][INFO] 2024-03-28 14:45:31,161: ... parent XML-RPC server started
+[roslaunch][INFO] 2024-03-28 14:45:31,163: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2024-03-28 14:45:31,168: auto-starting new master
+[roslaunch][INFO] 2024-03-28 14:45:31,168: create_master_process: rosmaster, /opt/ros/noetic/share/ros, 11311, 3, None, False
+[roslaunch][INFO] 2024-03-28 14:45:31,169: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2024-03-28 14:45:31,170: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2024-03-28 14:45:31,170: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2024-03-28 14:45:31,170: process[master]: starting os process
+[roslaunch][INFO] 2024-03-28 14:45:31,171: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/root/.ros/log/d29f9bda-ed11-11ee-8cd0-0242ac110002/master.log']]
+[roslaunch][INFO] 2024-03-28 14:45:31,171: process[master]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2024-03-28 14:45:31,180: process[master]: started with pid [16935]
+[roslaunch][INFO] 2024-03-28 14:45:31,181: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2024-03-28 14:45:31,284: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2024-03-28 14:45:31,390: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2024-03-28 14:45:31,494: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2024-03-28 14:45:31,596: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2024-03-28 14:45:31,698: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2024-03-28 14:45:31,800: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2024-03-28 14:45:31,903: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2024-03-28 14:45:32,007: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2024-03-28 14:45:32,111: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2024-03-28 14:45:32,213: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2024-03-28 14:45:32,316: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2024-03-28 14:45:32,423: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2024-03-28 14:45:32,528: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2024-03-28 14:45:32,547: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2024-03-28 14:45:32,554: ROS_MASTER_URI=http://localhost:11311
+[roslaunch][INFO] 2024-03-28 14:45:32,559: setting /run_id to d29f9bda-ed11-11ee-8cd0-0242ac110002
+[roslaunch][INFO] 2024-03-28 14:45:32,565: setting /roslaunch/uris/host_526f87885b72__42735' to http://526f87885b72:42735/
+[roslaunch][INFO] 2024-03-28 14:45:32,574: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2024-03-28 14:45:32,574: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2024-03-28 14:45:32,575: process[rosout-1]: env[{'_': '/opt/ros/noetic/bin/roslaunch', 'OLDPWD': '/', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-a43f5092-790c-496f-b59d-cac9f8576a40.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DISTRO': 'noetic', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'PATH': '/opt/ros/noetic/bin:/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'BROWSER': '/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/helpers/browser.sh', 'LC_ALL': 'C.UTF-8', 'LD_LIBRARY_PATH': '/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu', 'ROS_MASTER_URI': 'http://localhost:11311', 'SHLVL': '2', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-cc749b17-ae84-40b5-ae0e-0daa25fc637f.sock"]', 'TERM': 'xterm-256color', 'PYTHONPATH': '/opt/ros/noetic/lib/python3/dist-packages', 'CMAKE_PREFIX_PATH': '/opt/ros/noetic', 'REMOTE_CONTAINERS': 'true', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'LANG': 'C.UTF-8', 'HOME': '/root', 'PWD': '/opt/ros/noetic/share/visp_auto_tracker', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'ROS_PACKAGE_PATH': '/opt/ros/noetic/share', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-cc749b17-ae84-40b5-ae0e-0daa25fc637f.sock', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-cc749b17-ae84-40b5-ae0e-0daa25fc637f.sock', 'HOSTNAME': '526f87885b72', 'ROS_PYTHON_VERSION': '3', 'PKG_CONFIG_PATH': '/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig', 'TERM_PROGRAM_VERSION': '1.87.2', 'COLORTERM': 'truecolor', 'ROS_VERSION': '1', 'SHELL': '/bin/bash', 'ROS_LOG_FILENAME': '/root/.ros/log/d29f9bda-ed11-11ee-8cd0-0242ac110002/roslaunch-526f87885b72-16813.log'}]
+[roslaunch][INFO] 2024-03-28 14:45:32,688: process[rosout-1]: args[['/opt/ros/noetic/lib/rosout/rosout', '__name:=rosout']]
+[roslaunch][INFO] 2024-03-28 14:45:32,688: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2024-03-28 14:45:32,689: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2024-03-28 14:45:32,689: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2024-03-28 14:45:32,689: ... registered process [rosout-1]
+[roslaunch][INFO] 2024-03-28 14:45:32,689: process[rosout-1]: starting os process
+[roslaunch][INFO] 2024-03-28 14:45:32,690: process[rosout-1]: start w/ args [['/opt/ros/noetic/lib/rosout/rosout', '__name:=rosout', '__log:=/root/.ros/log/d29f9bda-ed11-11ee-8cd0-0242ac110002/rosout-1.log']]
+[roslaunch][INFO] 2024-03-28 14:45:32,690: process[rosout-1]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2024-03-28 14:45:32,702: process[rosout-1]: started with pid [16969]
+[roslaunch][INFO] 2024-03-28 14:45:32,703: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2024-03-28 14:45:32,704: load_parameters starting ...
+[roslaunch][INFO] 2024-03-28 14:45:32,876: ... load_parameters complete
+[roslaunch][INFO] 2024-03-28 14:45:32,878: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2024-03-28 14:45:32,878: ... preparing to launch node of type [visp_auto_tracker/visp_auto_tracker]
+[roslaunch][INFO] 2024-03-28 14:45:32,879: create_node_process: package[visp_auto_tracker] type[visp_auto_tracker] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2024-03-28 14:45:32,880: process[visp_auto_tracker-2]: env[{'_': '/opt/ros/noetic/bin/roslaunch', 'OLDPWD': '/', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-a43f5092-790c-496f-b59d-cac9f8576a40.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DISTRO': 'noetic', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'PATH': '/opt/ros/noetic/bin:/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'BROWSER': '/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/helpers/browser.sh', 'LC_ALL': 'C.UTF-8', 'LD_LIBRARY_PATH': '/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu', 'ROS_MASTER_URI': 'http://localhost:11311', 'SHLVL': '2', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-cc749b17-ae84-40b5-ae0e-0daa25fc637f.sock"]', 'TERM': 'xterm-256color', 'PYTHONPATH': '/opt/ros/noetic/lib/python3/dist-packages', 'CMAKE_PREFIX_PATH': '/opt/ros/noetic', 'REMOTE_CONTAINERS': 'true', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'LANG': 'C.UTF-8', 'HOME': '/root', 'PWD': '/opt/ros/noetic/share/visp_auto_tracker', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'ROS_PACKAGE_PATH': '/opt/ros/noetic/share', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-cc749b17-ae84-40b5-ae0e-0daa25fc637f.sock', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-cc749b17-ae84-40b5-ae0e-0daa25fc637f.sock', 'HOSTNAME': '526f87885b72', 'ROS_PYTHON_VERSION': '3', 'PKG_CONFIG_PATH': '/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig', 'TERM_PROGRAM_VERSION': '1.87.2', 'COLORTERM': 'truecolor', 'ROS_VERSION': '1', 'SHELL': '/bin/bash', 'ROS_LOG_FILENAME': '/root/.ros/log/d29f9bda-ed11-11ee-8cd0-0242ac110002/roslaunch-526f87885b72-16813.log'}]
+[roslaunch][INFO] 2024-03-28 14:45:32,883: process[visp_auto_tracker-2]: args[['/opt/ros/noetic/lib/visp_auto_tracker/visp_auto_tracker', '/visp_auto_tracker/camera_info:=/usb_cam/camera_info', '/visp_auto_tracker/image_raw:=/usb_cam/image_raw', '__name:=visp_auto_tracker']]
+[roslaunch][INFO] 2024-03-28 14:45:32,883: ... created process [visp_auto_tracker-2]
+[roslaunch.pmon][INFO] 2024-03-28 14:45:32,883: ProcessMonitor.register[visp_auto_tracker-2]
+[roslaunch.pmon][INFO] 2024-03-28 14:45:32,884: ProcessMonitor.register[visp_auto_tracker-2] complete
+[roslaunch][INFO] 2024-03-28 14:45:32,884: ... registered process [visp_auto_tracker-2]
+[roslaunch][INFO] 2024-03-28 14:45:32,884: process[visp_auto_tracker-2]: starting os process
+[roslaunch][INFO] 2024-03-28 14:45:32,885: process[visp_auto_tracker-2]: start w/ args [['/opt/ros/noetic/lib/visp_auto_tracker/visp_auto_tracker', '/visp_auto_tracker/camera_info:=/usb_cam/camera_info', '/visp_auto_tracker/image_raw:=/usb_cam/image_raw', '__name:=visp_auto_tracker', '__log:=/root/.ros/log/d29f9bda-ed11-11ee-8cd0-0242ac110002/visp_auto_tracker-2.log']]
+[roslaunch][INFO] 2024-03-28 14:45:32,885: process[visp_auto_tracker-2]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2024-03-28 14:45:32,902: process[visp_auto_tracker-2]: started with pid [16980]
+[roslaunch][INFO] 2024-03-28 14:45:32,904: ... successfully launched [visp_auto_tracker-2]
+[roslaunch][INFO] 2024-03-28 14:45:32,904: ... preparing to launch node of type [usb_cam/usb_cam_node]
+[roslaunch][INFO] 2024-03-28 14:45:32,905: create_node_process: package[usb_cam] type[usb_cam_node] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2024-03-28 14:45:32,906: process[usb_cam-3]: env[{'_': '/opt/ros/noetic/bin/roslaunch', 'OLDPWD': '/', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-a43f5092-790c-496f-b59d-cac9f8576a40.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DISTRO': 'noetic', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'PATH': '/opt/ros/noetic/bin:/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'BROWSER': '/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/helpers/browser.sh', 'LC_ALL': 'C.UTF-8', 'LD_LIBRARY_PATH': '/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu', 'ROS_MASTER_URI': 'http://localhost:11311', 'SHLVL': '2', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-cc749b17-ae84-40b5-ae0e-0daa25fc637f.sock"]', 'TERM': 'xterm-256color', 'PYTHONPATH': '/opt/ros/noetic/lib/python3/dist-packages', 'CMAKE_PREFIX_PATH': '/opt/ros/noetic', 'REMOTE_CONTAINERS': 'true', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'LANG': 'C.UTF-8', 'HOME': '/root', 'PWD': '/opt/ros/noetic/share/visp_auto_tracker', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'ROS_PACKAGE_PATH': '/opt/ros/noetic/share', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-cc749b17-ae84-40b5-ae0e-0daa25fc637f.sock', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-cc749b17-ae84-40b5-ae0e-0daa25fc637f.sock', 'HOSTNAME': '526f87885b72', 'ROS_PYTHON_VERSION': '3', 'PKG_CONFIG_PATH': '/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig', 'TERM_PROGRAM_VERSION': '1.87.2', 'COLORTERM': 'truecolor', 'ROS_VERSION': '1', 'SHELL': '/bin/bash', 'ROS_LOG_FILENAME': '/root/.ros/log/d29f9bda-ed11-11ee-8cd0-0242ac110002/roslaunch-526f87885b72-16813.log'}]
+[roslaunch][INFO] 2024-03-28 14:45:32,914: process[usb_cam-3]: args[['/opt/ros/noetic/lib/usb_cam/usb_cam_node', '__name:=usb_cam']]
+[roslaunch][INFO] 2024-03-28 14:45:32,915: ... created process [usb_cam-3]
+[roslaunch.pmon][INFO] 2024-03-28 14:45:32,915: ProcessMonitor.register[usb_cam-3]
+[roslaunch.pmon][INFO] 2024-03-28 14:45:32,915: ProcessMonitor.register[usb_cam-3] complete
+[roslaunch][INFO] 2024-03-28 14:45:32,916: ... registered process [usb_cam-3]
+[roslaunch][INFO] 2024-03-28 14:45:32,916: process[usb_cam-3]: starting os process
+[roslaunch][INFO] 2024-03-28 14:45:32,917: process[usb_cam-3]: start w/ args [['/opt/ros/noetic/lib/usb_cam/usb_cam_node', '__name:=usb_cam', '__log:=/root/.ros/log/d29f9bda-ed11-11ee-8cd0-0242ac110002/usb_cam-3.log']]
+[roslaunch][INFO] 2024-03-28 14:45:32,917: process[usb_cam-3]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2024-03-28 14:45:32,939: process[usb_cam-3]: started with pid [16992]
+[roslaunch][INFO] 2024-03-28 14:45:32,941: ... successfully launched [usb_cam-3]
+[roslaunch][INFO] 2024-03-28 14:45:32,941: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2024-03-28 14:45:32,942: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 274963863296)>
+[roslaunch.parent][INFO] 2024-03-28 14:45:32,942: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2024-03-28 14:45:32,942: spin
+[roslaunch][ERROR] 2024-03-28 14:45:33,359: [rosout-1] process has died [pid 16969, exit code -11, cmd /opt/ros/noetic/lib/rosout/rosout __name:=rosout __log:=/root/.ros/log/d29f9bda-ed11-11ee-8cd0-0242ac110002/rosout-1.log].
+log file: /root/.ros/log/d29f9bda-ed11-11ee-8cd0-0242ac110002/rosout-1*.log
+[roslaunch][INFO] 2024-03-28 14:45:33,362: [rosout-1] restarting process
+[roslaunch][INFO] 2024-03-28 14:45:33,362: process[rosout-1]: restarting os process
+[roslaunch][INFO] 2024-03-28 14:45:33,363: process[rosout-1]: start w/ args [['/opt/ros/noetic/lib/rosout/rosout', '__name:=rosout', '__log:=/root/.ros/log/d29f9bda-ed11-11ee-8cd0-0242ac110002/rosout-1.log']]
+[roslaunch][INFO] 2024-03-28 14:45:33,364: process[rosout-1]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2024-03-28 14:45:33,383: process[rosout-1]: started with pid [17018]
+[roslaunch][ERROR] 2024-03-28 14:45:33,592: [usb_cam-3] process has died [pid 16992, exit code -11, cmd /opt/ros/noetic/lib/usb_cam/usb_cam_node __name:=usb_cam __log:=/root/.ros/log/d29f9bda-ed11-11ee-8cd0-0242ac110002/usb_cam-3.log].
+log file: /root/.ros/log/d29f9bda-ed11-11ee-8cd0-0242ac110002/usb_cam-3*.log
+[roslaunch.pmon][INFO] 2024-03-28 14:45:33,593: ProcessMonitor.unregister[usb_cam-3] starting
+[roslaunch.pmon][INFO] 2024-03-28 14:45:33,593: ProcessMonitor.unregister[usb_cam-3] complete
+[roslaunch][ERROR] 2024-03-28 14:45:33,997: [rosout-1] process has died [pid 17018, exit code -11, cmd /opt/ros/noetic/lib/rosout/rosout __name:=rosout __log:=/root/.ros/log/d29f9bda-ed11-11ee-8cd0-0242ac110002/rosout-1.log].
+log file: /root/.ros/log/d29f9bda-ed11-11ee-8cd0-0242ac110002/rosout-1*.log
+[roslaunch][INFO] 2024-03-28 14:45:33,998: [rosout-1] restarting process
+[roslaunch][INFO] 2024-03-28 14:45:33,998: process[rosout-1]: restarting os process
+[roslaunch][INFO] 2024-03-28 14:45:33,999: process[rosout-1]: start w/ args [['/opt/ros/noetic/lib/rosout/rosout', '__name:=rosout', '__log:=/root/.ros/log/d29f9bda-ed11-11ee-8cd0-0242ac110002/rosout-1.log']]
+[roslaunch][INFO] 2024-03-28 14:45:33,999: process[rosout-1]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2024-03-28 14:45:34,007: process[rosout-1]: started with pid [17030]
+[roslaunch][ERROR] 2024-03-28 14:45:34,312: [visp_auto_tracker-2] process has died [pid 16980, exit code -11, cmd /opt/ros/noetic/lib/visp_auto_tracker/visp_auto_tracker /visp_auto_tracker/camera_info:=/usb_cam/camera_info /visp_auto_tracker/image_raw:=/usb_cam/image_raw __name:=visp_auto_tracker __log:=/root/.ros/log/d29f9bda-ed11-11ee-8cd0-0242ac110002/visp_auto_tracker-2.log].
+log file: /root/.ros/log/d29f9bda-ed11-11ee-8cd0-0242ac110002/visp_auto_tracker-2*.log
+[roslaunch.pmon][INFO] 2024-03-28 14:45:34,315: ProcessMonitor.unregister[visp_auto_tracker-2] starting
+[roslaunch.pmon][INFO] 2024-03-28 14:45:34,315: ProcessMonitor.unregister[visp_auto_tracker-2] complete
+[roslaunch.pmon][INFO] 2024-03-28 14:46:02,932: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 274963863296)>
+[roslaunch.pmon][INFO] 2024-03-28 14:46:02,950: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 274963863296)>
+[roslaunch.pmon][INFO] 2024-03-28 14:46:02,951: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 274963863296)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x40049adb20>, <roslaunch.nodeprocess.LocalProcess object at 0x40049ade50>]
+[roslaunch.pmon][INFO] 2024-03-28 14:46:02,959: ProcessMonitor exit: killing rosout-1
+[roslaunch][INFO] 2024-03-28 14:46:02,960: [rosout-1] killing on exit
+[roslaunch][INFO] 2024-03-28 14:46:02,961: process[rosout-1]: killing os process with pid[17030] pgid[17030]
+[roslaunch][INFO] 2024-03-28 14:46:02,962: [rosout-1] sending SIGINT to pgid [17030]
+[roslaunch][INFO] 2024-03-28 14:46:02,962: [rosout-1] sent SIGINT to pgid [17030]
+[roslaunch][INFO] 2024-03-28 14:46:03,371: process[rosout-1]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2024-03-28 14:46:03,371: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2024-03-28 14:46:03,372: [master] killing on exit
+[roslaunch][INFO] 2024-03-28 14:46:03,372: process[master]: killing os process with pid[16935] pgid[16935]
+[roslaunch][INFO] 2024-03-28 14:46:03,372: [master] sending SIGINT to pgid [16935]
+[roslaunch][INFO] 2024-03-28 14:46:03,373: [master] sent SIGINT to pgid [16935]
+[roslaunch][INFO] 2024-03-28 14:46:03,679: process[master]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2024-03-28 14:46:03,680: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2024-03-28 14:46:03,681: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2024-03-28 14:46:03,682: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2024-03-28 14:46:03,683: runner.stop()
+[roslaunch][INFO] 2024-03-28 14:46:03,683: shutting down processing monitor...
+[roslaunch][INFO] 2024-03-28 14:46:03,683: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 274963863296)>
+[roslaunch.pmon][INFO] 2024-03-28 14:46:03,684: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 274963863296)>
+[roslaunch][INFO] 2024-03-28 14:46:03,684: ... shutting down processing monitor complete
+[roslaunch][INFO] 2024-03-28 14:46:03,684: done
+[roslaunch.pmon][INFO] 2024-03-28 14:46:03,686: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 274963863296)>
+[rospy.core][INFO] 2024-03-28 14:46:03,688: signal_shutdown [atexit]

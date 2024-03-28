@@ -1,0 +1,112 @@
+[rosmaster.main][INFO] 2024-03-28 14:45:32,435: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2024-03-28 14:45:32,437: Starting ROS Master Node
+[xmlrpc][INFO] 2024-03-28 14:45:32,448: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2024-03-28 14:45:32,450: Started XML-RPC server [http://526f87885b72:11311/]
+[xmlrpc][INFO] 2024-03-28 14:45:32,451: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2024-03-28 14:45:32,451: Master initialized: port[11311], uri[http://526f87885b72:11311/]
+[rosmaster.master][INFO] 2024-03-28 14:45:32,562: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2024-03-28 14:45:32,567: +PARAM [/roslaunch/uris/host_526f87885b72__42735] by /roslaunch
+[rosmaster.master][INFO] 2024-03-28 14:45:32,720: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2024-03-28 14:45:32,721: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2024-03-28 14:45:32,722: +PARAM [/visp_auto_tracker/model_path] by /roslaunch
+[rosmaster.master][INFO] 2024-03-28 14:45:32,722: +PARAM [/visp_auto_tracker/model_name] by /roslaunch
+[rosmaster.master][INFO] 2024-03-28 14:45:32,723: +PARAM [/visp_auto_tracker/debug_display] by /roslaunch
+[rosmaster.master][INFO] 2024-03-28 14:45:32,723: +PARAM [/usb_cam/image_width] by /roslaunch
+[rosmaster.master][INFO] 2024-03-28 14:45:32,723: +PARAM [/usb_cam/image_height] by /roslaunch
+[rosmaster.master][INFO] 2024-03-28 14:45:32,724: +PARAM [/usb_cam/video_device] by /roslaunch
+[rosmaster.master][INFO] 2024-03-28 14:45:32,724: +PARAM [/usb_cam/pixel_format] by /roslaunch
+[rosmaster.master][INFO] 2024-03-28 14:45:32,724: +PARAM [/usb_cam/camera_name] by /roslaunch
+[rosmaster.master][INFO] 2024-03-28 14:45:32,725: +PARAM [/usb_cam/camera_info_url] by /roslaunch
+[rosmaster.master][INFO] 2024-03-28 14:45:32,903: +SERVICE [/rosout/get_loggers] /rosout http://526f87885b72:34483/
+[rosmaster.master][INFO] 2024-03-28 14:45:32,908: +SERVICE [/rosout/set_logger_level] /rosout http://526f87885b72:34483/
+[rosmaster.master][INFO] 2024-03-28 14:45:32,922: +PUB [/rosout_agg] /rosout http://526f87885b72:34483/
+[rosmaster.master][INFO] 2024-03-28 14:45:32,939: +SUB [/rosout] /rosout http://526f87885b72:34483/
+[rosmaster.master][INFO] 2024-03-28 14:45:33,224: +PUB [/rosout] /usb_cam http://526f87885b72:45645/
+[rosmaster.master][INFO] 2024-03-28 14:45:33,234: +SERVICE [/usb_cam/get_loggers] /usb_cam http://526f87885b72:45645/
+[rosmaster.master][INFO] 2024-03-28 14:45:33,237: +SERVICE [/usb_cam/set_logger_level] /usb_cam http://526f87885b72:45645/
+[rosmaster.master][INFO] 2024-03-28 14:45:33,247: publisherUpdate[/rosout] -> http://526f87885b72:34483/ ['http://526f87885b72:45645/']
+[rosmaster.master][INFO] 2024-03-28 14:45:33,269: publisherUpdate[/rosout] -> http://526f87885b72:34483/ ['http://526f87885b72:45645/']: sec=0.02, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2024-03-28 14:45:33,277: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 922, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2024-03-28 14:45:33,499: +SERVICE [/rosout/get_loggers] /rosout http://526f87885b72:34379/
+[rosmaster.master][INFO] 2024-03-28 14:45:33,504: +SERVICE [/rosout/set_logger_level] /rosout http://526f87885b72:34379/
+[rosmaster.master][INFO] 2024-03-28 14:45:33,516: +PUB [/rosout_agg] /rosout http://526f87885b72:34379/
+[rosmaster.master][INFO] 2024-03-28 14:45:33,530: +SUB [/rosout] /rosout http://526f87885b72:34379/
+[rosmaster.master][INFO] 2024-03-28 14:45:33,960: +PUB [/rosout] /visp_auto_tracker http://526f87885b72:38909/
+[rosmaster.master][INFO] 2024-03-28 14:45:33,966: +SERVICE [/visp_auto_tracker/get_loggers] /visp_auto_tracker http://526f87885b72:38909/
+[rosmaster.master][INFO] 2024-03-28 14:45:33,967: +SERVICE [/visp_auto_tracker/set_logger_level] /visp_auto_tracker http://526f87885b72:38909/
+[rosmaster.master][INFO] 2024-03-28 14:45:33,983: publisherUpdate[/rosout] -> http://526f87885b72:34379/ ['http://526f87885b72:45645/', 'http://526f87885b72:38909/']
+[rosmaster.master][INFO] 2024-03-28 14:45:33,988: publisherUpdate[/rosout] -> http://526f87885b72:34379/ ['http://526f87885b72:45645/', 'http://526f87885b72:38909/']: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.master][INFO] 2024-03-28 14:45:33,990: +CACHEDPARAM [/rosout_disable_topics_generation] by /visp_auto_tracker
+[rosmaster.threadpool][ERROR] 2024-03-28 14:45:33,990: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 922, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2024-03-28 14:45:34,022: +PARAM [/model_description] by /visp_auto_tracker
+[rosmaster.master][INFO] 2024-03-28 14:45:34,175: +SERVICE [/rosout/get_loggers] /rosout http://526f87885b72:39423/
+[rosmaster.master][INFO] 2024-03-28 14:45:34,181: +SERVICE [/rosout/set_logger_level] /rosout http://526f87885b72:39423/
+[rosmaster.master][INFO] 2024-03-28 14:45:34,193: +PUB [/rosout_agg] /rosout http://526f87885b72:39423/
+[rosmaster.master][INFO] 2024-03-28 14:45:34,203: +SUB [/rosout] /rosout http://526f87885b72:39423/
+[rosmaster.master][INFO] 2024-03-28 14:46:03,216: -PUB [/rosout_agg] /rosout http://526f87885b72:39423/
+[rosmaster.master][INFO] 2024-03-28 14:46:03,221: -SUB [/rosout] /rosout http://526f87885b72:39423/
+[rosmaster.master][INFO] 2024-03-28 14:46:03,224: -SERVICE [/rosout/get_loggers] /rosout rosrpc://526f87885b72:42727
+[rosmaster.master][INFO] 2024-03-28 14:46:03,226: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://526f87885b72:42727
+[rosmaster.main][INFO] 2024-03-28 14:46:03,374: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2024-03-28 14:46:03,374: stopping master...
+[rospy.core][INFO] 2024-03-28 14:46:03,376: signal_shutdown [atexit]
